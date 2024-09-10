@@ -65,5 +65,20 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-    
+    header h1 {
+        flex: 2;
+        text-align: center;
+        font-family: 'Nerko One', serif;
+        font-size: 3.5em;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        width: 400px;
+        height: 200px;
+        margin: 10px auto; /*alinha os elementos ao centro*/
+    }
 }
